@@ -1,0 +1,27 @@
+Khushii Shetty:
+int shuffle(struct deck* d);
+void create_deck(struct deck* d);
+int add_card_deck(struct deck* d, struct card* c);
+int add_card(struct player* target, struct card* new_card);
+char check_add_book(struct player* target);
+int remove_card(struct player* target, char rank);
+int transfer_cards(struct player* src, struct player* dest, char rank);
+void print_deck(const struct deck* d);
+void print_player_hand(const struct player* target);
+void print_player_book(const struct player* target);
+
+
+Gurleen Kaur
+char computer_play(struct player* target);
+void reset_game();
+void exit_game();
+char user_play(struct player* target);
+int reset_player(struct player* target);
+struct card* next_card(struct deck* d);
+int deck_size(const struct deck* d);
+struct card* deck_draw(struct deck* d);
+
+
+
+
+BOTH - game_loop();
